@@ -1,129 +1,126 @@
-
-[type="event"]{
-    padding-bottom: 20px;
-      font-family: 'Noto Sans TC', sans-serif;
-
-}
-.eve{
-    text-align: center;
-}
-.mes{
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
+.prox{
     color: #000;
     font-size: 28px;
-
+    margin-bottom: 15px;
 
 }
-#ev{
+#icon-eve{
     color: #0173d4;
     margin-right: 10px;
    
 }
-.contenedor-event{
-  
-    width: 100%;
-    
-    height: auto;
-   
 
-    border: solid 2px #EEEE;
-    margin: 15px 5px 15px 0;
-    display: flex;
+.contenedor-event{
+    display: block;
+    width: 100%;
+    height: auto;
+   border: solid 2px #EEEE;
+    margin: 15px auto;
+     border-radius: 10px;
+    
   
 }
 
-
 .img-event{
-   width: 30%;
+   width: 100%;
+    height: 210px;
+   
     
     
 }
 .img-event img{
-    padding: 15px;
-    height: 225px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 90%;
+    padding-top: 5px;
+    
 }
 .inf-event{
     padding: 15px;
-    width: 65%;
-    height: auto;
-   margin-left: 15px;
-   text-align: justify;
+    width: 100%;
+
+   margin-left: 0;
+   
    
 }
 .inf-event h3{
-    color: #000;
-    font-size: 20px;
+    color: #12128A;
+    font-size: 18px;
     margin-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+padding: 2px;
+}
 
+.inf-event p{
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+   
+    
 }
-.inf-event .fecha{
+
+.fecha{
+     
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 20px!important;
+   
 }
+
 [type="f-event"]{
  
     margin-top: 0;
 }
-@media(max-width: 1080px){
-     .mes{
-        margin-left: 10px;
-    }
-    .contenedor-event{
-       
-        display: block;
-    height: auto;
-        width: 96%;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-     .inf-event{
-        margin-left: 0px;
-    }
-    .inf-event p{
-        font-size: 15px;
-    }
-    .inf-event h3{
-        font-size: 19px;
-    }
-    .img-event{
-     height: 288px;
-      
-        width: 100%;
-    }
-    .img-event img{
-       margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        height: 100%;
-    }
-    .inf-event{
-        width: 100%;
-        height: 40%;
-        
-    }
-    .eve{
+
+.mas{
     
-        font-size: 28px;
+    text-decoration: none;
+     color: #12128A;   
 }
-.mes{
-
-    font-size: 24px;
-
-
+.mas:hover{
+    color: #0173d4 
 }
+@media(min-width:530px){
+    
+    .img-event{
+   width: 100%;
+    height: 260px;
+   
+    
     
 }
-@media(max-width: 440px) {
+@media(min-width:620px){
+    
     .img-event{
-     height: 190px;
-      
-        width: 100%;
-    }
-    @media(max-width: 290px) {
-    .img-event{
-     height: 130px;
-      
-        width: 100%;
-    }
+   width: 100%;
+    height: 300px;
+   
+    
+    
+}
+    @media(min-width:720px){
+        [type="eventos"]{
+            display: flex;
+              flex-wrap: wrap;
+        }
+.contenedor-event{
+
+  width: auto;
+   
+    
+  
+}
+        .img-event{
+            
+            height: 50%;
+           width: 290px; 
+        }
+        .inf-event{
+            height: 50%;
+        }
+   
     
 }
