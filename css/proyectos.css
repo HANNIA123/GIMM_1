@@ -60,11 +60,11 @@ justify-content: center;
    
     
 }
- [type="title"] h1,p{
+ /*[type="title"] h1,p{
      padding-left: 10px;
      padding-right: 10px;
      
-}
+}*/
  [padd="10padd"]{
            padding: 5px;
         }
@@ -106,10 +106,10 @@ height: auto;
         .inf-proy{
             height: auto;
                    }
-         [type="title"] h1,p{
+       /*  [type="title"] h1,p{
      margin: 5px 10px;
      
-}
+}*/
          [padd="10padd"]{
            padding: 0;
         }
