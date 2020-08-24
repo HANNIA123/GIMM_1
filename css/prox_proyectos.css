@@ -1,0 +1,42 @@
+h1{
+    color:#545176;
+}
+
+#subtema{
+   max-width: 600px; 
+}
+
+.sub{
+    font-size: 25px;
+}
+
+.contenedor_acordeon .articulo_sub{
+    margin-left: 8px; 
+}
+
+.eventos{
+    width: 82%;
+    margin: auto;
+}
+
+.contenedor_acordeon img{
+    width: 100%;
+    border: 1px solid #BFC7CD;
+    color: #545176;  
+}
+
+.contenido_eventos{
+    justify-content: center;
+    display: block;
+    text-align: left;  
+    max-width: 1000px;
+}
+
+
+@media(min-width:900px){ 
+   .contenedor_acordeon .eventos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wramp;      
+    }  
+}
