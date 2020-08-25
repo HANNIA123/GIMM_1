@@ -4,7 +4,7 @@
     margin-right: auto;
 }
 
-.acordeon{
+.contenedor_acordeon .acordeon{
     margin: auto;
     width: 97%;  
 }
@@ -15,11 +15,11 @@
     width: 89%;
 }
 
-p{
+.contenedor_acordeon p{
       text-align: justify; 
 }
 
-label{
+.contenedor_acordeon label{
     color: #545176;
 }
 
@@ -71,11 +71,11 @@ label{
     list-style: none;
     padding: 2px;  
 }
-
-.acordeon label{
+/*Agregar la primera clase*/
+.contenedor_acordeon .acordeon label{
     font-size: 20px;
     font-weight: bold;
-    font-family:sans-serif;
+    
 }
 
  @media(min-width:770px){ 
