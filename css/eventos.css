@@ -126,6 +126,7 @@ padding: 2px;
     color: #0173d4;
     font-size: 18px;
 }
+
 .cen a{
     margin-left: 5px;
     color:#12128A;
@@ -135,7 +136,11 @@ padding: 2px;
     color:#0173d4;
 }
 
-
+.icon-mail-alt{
+     color: #0173d4;
+    font-size: 16px;
+    margin-right: 5px;
+}
 @media(min-width:530px){
     
     .img-event{
