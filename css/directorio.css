@@ -31,7 +31,10 @@
     width: 320px;  
 }
 
-
+.imagen span{
+    color: #0173d4;
+    
+}
 @media(min-width:1100px){ 
    .contenedor_p .integrantes{
     display: flex;
