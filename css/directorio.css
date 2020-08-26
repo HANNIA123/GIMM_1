@@ -35,6 +35,9 @@
     color: #0173d4;
     
 }
+.imagen p{
+    text-align: left ;
+}
 @media(min-width:1100px){ 
    .contenedor_p .integrantes{
     display: flex;
