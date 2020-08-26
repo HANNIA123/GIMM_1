@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');/*Textos*/
+@import url(slider_footer.css);
+@import url(banner.css);
+@import url(menu.css);
+@import url(acerca.css);
+@import url(footer.css);
+@import url(tesis.css);
+@import url(eventos.css);
+@import url(prox_proyectos.css);
+@import url(proyectos.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+  
+ 
+ 
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/*todos los elementos deben ir en un contenedor*/
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+.contenedor_p{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header{
+    font-family: 'Allerta', sans-serif;
+    
+    font-size: 16px;
+    
+    width: 100%;
+    top:0;
+    left: 0;
+    
+    background-color: rgb(255,255,255,0.95);
+        
+    color: #000;
+   border-bottom: 2px solid rgb(184,184,184,0.5);
+   
+    /*menú de lado (final)*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position:fixed;
+	z-index:200;
+    
+}
+
+
+/*Limpiar los float*/
+header .contenedor{
+    margin-top: 10px;
+    width: 92%;
+display: table;
+
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#acerca-de{
+    text-align: center;
+    
+}
+
+/*Boton temporal*/
+.bot{
+    text-decoration: none;
+    display: block;
+   
+    color: #fff;
+    background-color: #0173d4;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+     font-family: 'Rubik', sans-serif !important;
+    font-size: 16px !important;
+    text-align: center;
+    
+    
+    
+}
+.bot:hover{
+    background-color: #63B6FD;
+}
+
+#acerca .bot{
+     width: 90px;
+    
+}
+[MyType="mas"]{
+  float: right;
+   width: 140px;
+    
+}
+
+#acerca h4{
+    color: #545176;
+}
+
+
+#ggbApplet{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+@media(min-width:1200px){
+    .contenedor{
+        
+        width: 1000px;
+    }
+    [type="applet"]{
+
+        width: 1300px;
+    
+}
+    
+}
+   
+
+}
+
