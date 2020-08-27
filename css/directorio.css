@@ -1,10 +1,19 @@
 .integrantes{
-    width: 85%;
+    width: 98%;
     margin: auto;
+    display: block;
+  
+    
+}
+.contenido{
+    justify-content: center;
+    display: block;
+    height: auto;
 }
 
-.integrantes img{
-    width: 70%;
+.contenido img{
+    height: 240px;
+width: 240px;
     border: 1px solid #BFC7CD;
     color: #545176 ;
     display:block;
@@ -12,12 +21,7 @@
 }
 
 
-.contenido{
-    justify-content: center;
-    display: block;
-}
-
-.contenedor_p article{
+.integrantes article{
     margin: 30px;
     margin-top: 10px;
 }
@@ -25,34 +29,57 @@
 .contenido span{
     color: #0173d4;  
 }
-
+  
 .contenido p{
     text-align: center;
     font-size: 14px;
 }
-@media(min-width:700px){
-    
-    .contenido p{
-  
-    font-size: 16px;
+@media(min-width:600px){ 
+    .contenido img{
+    height: 320px;
+width: 320px;
+
 }
+    .contenido p{
+    
+    font-size: 15px;
+}
+}
+@media(min-width:780px){ 
+
+    .integrantes{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+ .contenido {
+   width: 360px;
+     height: auto;
+ 
 }
 
-@media(min-width:900px){ 
-.contenedor_p .integrantes{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wramp; 
-}    
-    
-.integrantes img{
-      width: 100%;
+.contenido img{
+      width: 90%;
+    height: 280px;
+ 
 }
     
 .contenido p{
     text-align: left;
     font-size: 15px;
 }
+    .integrantes article{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .datos{
+       
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     
 }
-
