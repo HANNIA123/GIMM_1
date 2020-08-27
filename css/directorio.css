@@ -1,0 +1,51 @@
+.integrantes{
+    width: 85%;
+    margin: auto;
+}
+
+.integrantes img{
+    width: 70%;
+    border: 1px solid #BFC7CD;
+    color: #545176 ;
+    display:block;
+    margin:auto;
+}
+
+
+.contenido{
+    justify-content: center;
+    display: block;
+}
+
+.contenedor_p article{
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.contenido span{
+    color: #0173d4;  
+}
+
+.contenido p{
+    text-align: center;
+    font-size: 14px;
+}
+
+@media(min-width:900px){ 
+.contenedor_p .integrantes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wramp; 
+}    
+    
+.integrantes img{
+      width: 100%;
+}
+    
+.contenido p{
+    text-align: left;
+    font-size: 15px;
+}
+    
+}
+
