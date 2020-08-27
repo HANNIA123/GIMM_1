@@ -3,8 +3,8 @@
     margin: auto;
 }
 
-.contenedor_p img{
-    width: 100%;
+.integrantes img{
+ 
     border: 1px solid #BFC7CD;
     color: #545176 ;
     width: 240px;
@@ -30,6 +30,7 @@
 
 .contenido p{
     text-align: center;
+    font-size: 14px;
 }
 
 @media(min-width:1100px){ 
@@ -39,16 +40,16 @@
     flex-wrap: wramp; 
 }    
     
-.contenedor_p img{
-    width: 100%;
-    border: 1px solid #BFC7CD;
-    color: #545176 ;
+.integrantes img{
+   
     width: 320px;
     height: 320px;      
 }
     
 .contenido p{
     text-align: left;
+    font-size: 15px;
+    
 }
     
 }
