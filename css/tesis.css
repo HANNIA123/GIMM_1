@@ -1,0 +1,114 @@
+.contenedor_p .acordeon{
+    margin: auto;
+    width: 97%; 
+}
+
+.contenedor_p p{
+      text-align: justify; 
+}
+
+.titulo{
+    font-size: 35px;
+}
+
+.contenedor_p label{
+    color: #545176;
+}
+
+.acordeon__item{
+    display: block;
+    padding: 8px;
+}
+
+.contenedor_p article {
+    margin: 0 auto auto auto;
+}
+
+.acordeon input{
+    display: none;
+}
+
+#acordeon__titulo{
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.acordeon__contenido{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.5s;
+    text-align:left; 
+}
+
+.acordeon input:checked ~ .acordeon__contenido {
+    height: auto;
+    margin: 15px 0;
+}
+
+.acordeon__contenido a{
+    text-decoration:none;
+    color: #000;
+    font-size: 15px;
+    margin-left: 50px;
+    
+}
+
+.acordeon__contenido a:hover {
+    color: #0173d4 
+}
+
+.acordeon__contenido li{
+    text-indent: 10px;
+    list-style: none;
+    padding: 2px;  
+}
+
+/*APPLET*/
+.acordeon__contenido .applet li{
+    text-indent: 27px;
+    list-style: none;
+    padding: 2px;  
+}
+
+/*Agregar la primera clase*/
+.contenedor_p .acordeon label{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+ @media(min-width:700px){ 
+   .contenedor_p .acordeon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wramp; 
+    } 
+     
+    #acordeon__titulo{
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 0px;
+}
+     
+    .acordeon__contenido{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.5s;
+    text-align: left; 
+}
+     
+    .acordeon__contenido a{
+    text-decoration:none;
+    color: #000;
+    font-size: 15px;
+    margin-left: 0px;
+    
+}
+} 
