@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?84965189');
-  src: url('../font/fontello.eot?84965189#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?84965189') format('woff2'),
-       url('../font/fontello.woff?84965189') format('woff'),
-       url('../font/fontello.ttf?84965189') format('truetype'),
-       url('../font/fontello.svg?84965189#fontello') format('svg');
+  src: url('../font/fontello.eot?26317949');
+  src: url('../font/fontello.eot?26317949#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?26317949') format('woff2'),
+       url('../font/fontello.woff?26317949') format('woff'),
+       url('../font/fontello.ttf?26317949') format('truetype'),
+       url('../font/fontello.svg?26317949#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?84965189#fontello') format('svg');
+    src: url('../font/fontello.svg?26317949#fontello') format('svg');
   }
 }
 */
@@ -72,7 +72,12 @@
 .icon-videocam:before { content: '\e80e'; } /* '' */
 .icon-user:before { content: '\e80f'; } /* '' */
 .icon-phone:before { content: '\e810'; } /* '' */
+.icon-right-dir:before { content: '\e811'; } /* '' */
+.icon-edit:before { content: '\e812'; } /* '' */
+.icon-award:before { content: '\e813'; } /* '' */
+.icon-bookmark:before { content: '\e814'; } /* '' */
 .icon-info-circled-alt:before { content: '\f086'; } /* '' */
+.icon-bookmark-empty:before { content: '\f097'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-menu-1:before { content: '\f0c9'; } /* '' */
@@ -80,6 +85,9 @@
 .icon-circle:before { content: '\f111'; } /* '' */
 .icon-ok-squared:before { content: '\f14a'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
+.icon-bank:before { content: '\f19c'; } /* '' */
+.icon-graduation-cap:before { content: '\f19d'; } /* '' */
+.icon-cube:before { content: '\f1b2'; } /* '' */
 .icon-file-pdf:before { content: '\f1c1'; } /* '' */
 .icon-file-word:before { content: '\f1c2'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
